@@ -1,14 +1,36 @@
-h1{background-color: gray;
+#grid-container {
+  display: grid;
+}
+
+body {
+  background-color: gray;
+}
+
+h1 {
+  background-color: gray;
+  margin: 0px;
 
 }
 
-nav{
+nav {
   background-color: hotpink;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px
 }
-.navbar{
+
+.navbar {
   background-color: hotpink;
 }
 
-.sidebar{
+.sidebar {
   background-color: hotpink;
+}
+
+.main {
+  background-color: white;
+}
+h5{
+  text-align: center;
+  font-size:xx-large; 
 }
